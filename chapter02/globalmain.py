@@ -4,7 +4,7 @@ def print_globals():
 
 
 def helle():
-    print('hello')
+    print('hello') 
 
 if __name__ == "__main__":
     print_globals()
