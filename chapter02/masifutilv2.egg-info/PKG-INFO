@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: masifutilv2
+Version: 0.1.0
+Summary: A sample package for illustration purpose
+Home-page: 
+Author: Lochinbek
+Author-email: lochinbekweb@gmail.com
+License: LINCENSE.txt
+Requires-Python: >=3.5, <4
