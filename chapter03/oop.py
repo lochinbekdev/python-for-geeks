@@ -9,7 +9,7 @@ class Car:
 
     @staticmethod
     def static_hello():
-        print(f"Helloe im a static method , I have not access to slef or cls objects")
+        print(f"Hello I am a static method , I have not access to slef or cls objects.")
 
     #init funtion is constructor method in class
     def __init__(self,color,miles,model,eng_size):
@@ -23,7 +23,7 @@ class Car:
 
     #this __str__ help print statement implementation without any to_string() method
     def __str__(self):
-        return f"car with color {self.i_color}, mileage {self.i_mileage}, model {self._model} and door {self.__doors()}. Car engine size is {car.i_engine.i_size}"
+        return f"{self.static_hello()} . {self.print_units()}. Car with color {self.i_color}, mileage {self.i_mileage}, model {self._model} and door {self.__doors()}. Car engine size is {car.i_engine.i_size}"
         
     #This doors method is private instance method in Car class
     def __doors(self):
