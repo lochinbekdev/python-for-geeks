@@ -1,6 +1,6 @@
 import logging
 
-logger1=logging.getLogger("my_logger")
+logger1=logging.getLogger("jdpuPF")
 logging.basicConfig()
 logger1.setLevel(logging.INFO)
 logger1.warning("This is a warning message")
