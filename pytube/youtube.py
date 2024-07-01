@@ -29,14 +29,14 @@ def on_progress(stream,chunk,bytes_remaining):
 
 # System settings
 ctk.set_appearance_mode("System")
-ctk.set_default_color_theme("blue")
+ctk.set_default_color_theme("green")
 
 app = ctk.CTk()
-app.geometry("720x480")
-app.title("JDPU YouTube Video Downloader")
+app.geometry("500x480")
+app.title("YouTube Video Downloader")
 
 # Adding UI Elements
-title = ctk.CTkLabel(app, text="Insert YouTube link")
+title = ctk.CTkLabel(app, text="Youtube link kiriting")
 title.pack(padx=10, pady=10)
 
 # Link entry
@@ -45,17 +45,22 @@ link = ctk.CTkEntry(app, width=350, height=40, textvariable=url_var)
 link.pack(padx=10, pady=10)
 
 # Download button
-button = ctk.CTkButton(app, text="Download", command=start_download)
+button = ctk.CTkButton(app, text="Yuklab olish", command=start_download)
 button.pack(padx=10, pady=10)
 
 #prpgress bar
-
+    
 pPercentsge = ctk.CTkLabel(app, text="0%")
 pPercentsge.pack()
 
 progressBar = ctk.CTkProgressBar(app,width=400)
 progressBar.set(0)
 progressBar.pack(padx=10,pady=10)
+
+
+# Adding UI Elements
+title = ctk.CTkLabel(app, text="Author Lochinbek => Telegram:@lochinbek_dev")
+title.pack(padx=10, pady=10)
 
 #finish   downloading
 finishLabel = ctk.CTkLabel(app,text="")
