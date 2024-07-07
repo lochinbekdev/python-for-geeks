@@ -1,13 +1,6 @@
 import unittest
 
-# from unittest.src.add import add 
-
-
-def add(x,y):
-    "This is function add two number"
-    return x + y
-
-
+from chapter05.unittest.src.add import add
 
 class MyAddTestSuite(unittest.TestCase):
 
