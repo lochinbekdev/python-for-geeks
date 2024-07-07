@@ -13,7 +13,7 @@ def look_for_key(main_box):
 
 # Recursive  algorithm
 
-def look_for_key(box):
+def look_for_key_main(box):
     for item in box:
         if item.is_a_box():     #base case
             look_for_key(item)  
