@@ -1,0 +1,9 @@
+Hello world!
+
+This is a mail sent will Python!
+
+Subscribe To Lochinbek!
+
+Kind Regards!
+
+Lochinbek
