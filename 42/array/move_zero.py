@@ -12,8 +12,8 @@ numbers=[0,1,0,3,12]
 
 bad_solution_result=moveZero(numbers)
 
-        
-        
+#move_zero_best_practice 
+
         
 def move_zero_best_practice(nums:list)->list:
     count = 0
